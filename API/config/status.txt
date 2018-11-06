@@ -1,0 +1,15 @@
+status payment: 
+- completed  (jika sudah bayar course)
+- cancelled	 (jika sudah order tapi tidak jadi ambil course)
+- refund (jika sudah bayar dan ada kesalahan teknis pada course)
+
+status activity:
+- remove from course (tidak jadi mengambil course)
+- retake quiz (mengambil kembali quiz)
+- retake course (mengambil kembali course)
+- review course (mereview course yang telah diambil)
+- start course (memulai course)
+- start quiz (memulai quiz)
+- submit quiz (menyelesaikan quiz)
+- subscribe course (mengikuti course)
+- unit completed (selesai course)
